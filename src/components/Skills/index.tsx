@@ -1,6 +1,11 @@
-
-
 import { SkillItens } from "./SkillsItens/SkillItens";
+
+import Html from '../../assets/html.png'
+import Css from '../../assets/css.png'
+import Javascript from '../../assets/Javascript.png'
+import Tailwind from '../../assets/tailwind.png'
+import React from '../../assets/react.png'
+import Typescript from '../../assets/Typescript.png'
 
 export function Skills () {
   return (
@@ -8,14 +13,14 @@ export function Skills () {
       <Title>habilidades</Title>
 
       <SkillsContainer >
-        <SkillItens src="src/assets/html.png" title="HTML"/>
-        <SkillItens src="src/assets/css.png" title="CSS"/>
-        <SkillItens src="src/assets/Javascript.png" title="Javascript"/>
+        <SkillItens src={Html} title="HTML"/>
+        <SkillItens src={Css} title="CSS"/>
+        <SkillItens src={Javascript} title="Javascript"/>
       </SkillsContainer>
       <SkillsContainer>
-        <SkillItens src="src/assets/tailwind.png" title="Tailwind"/>
-        <SkillItens src="src/assets/react.png" title="React"/>
-        <SkillItens src="src/assets/Typescript.png" title="Typescript"/>
+        <SkillItens src={Tailwind} title="Tailwind"/>
+        <SkillItens src={React} title="React"/>
+        <SkillItens src={Typescript} title="Typescript"/>
       </SkillsContainer>
     </Container>
     

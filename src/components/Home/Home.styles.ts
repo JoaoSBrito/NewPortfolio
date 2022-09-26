@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const BgImg = styled.div`
   
-background: url(src/assets/wave.png);
+background: url(public/wave.png);
 width: 100%;
 height: 230px;
 position: absolute;

@@ -11,13 +11,15 @@ import {
 } from "./Home.styles";
 import { NavBar } from "./NavBar/NavBar";
 
+import HomeIcon from '../../assets/homeicon.png'
+
 export function Home() {
   return (
     <>
       <NavBar />
 
       <HomeContainer id="Home" className="content">
-        <HomeImg src="src/assets/homeicon.png" alt="" />
+        <HomeImg src={HomeIcon} alt="" />
           <HomeContent>
             <Headlines>
               <TitleName>Olá Sou João Vitor</TitleName>

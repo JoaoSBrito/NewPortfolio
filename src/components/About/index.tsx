@@ -1,6 +1,8 @@
 import { Container, Title } from "../../global";
 import { AboutContainer, ProfileContainer, ProfileDescription } from "./About.styles";
 
+import Perfil from '../../assets/perfil.jpeg'
+
 export function About() {
   return (
 
@@ -11,7 +13,7 @@ export function About() {
       <AboutContainer>
       <ProfileContainer> 
         <div className="image">
-          <img src="src/assets/perfil.jpeg" alt="" />
+          <img src={Perfil} alt="" />
         </div>
       </ProfileContainer>
 
