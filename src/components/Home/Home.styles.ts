@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
+import Wave from '../../assets/wave.png'
+
 
 export const BgImg = styled.div`
   
-background: url(public/wave.png);
+background: url(${Wave});
 width: 100%;
 height: 230px;
 position: absolute;
