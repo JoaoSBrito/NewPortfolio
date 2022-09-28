@@ -17,6 +17,7 @@ export const SkillContainer = styled.div`
 
   :hover {
     transform: scale(1.1);
+    border: 1px solid var(--purple-600);
   }
 `
 
