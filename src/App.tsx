@@ -1,4 +1,5 @@
 import { About } from "./components/About"
+import { ScrollButton } from "./components/BackToTopButton"
 import { Contact } from "./components/Contact"
 import { Footer } from "./components/Footer"
 import { Home } from "./components/Home"
@@ -17,6 +18,7 @@ function App() {
       <Projects/>
       <Contact/>
       <Footer/>
+      <ScrollButton/>
       <GlobalStyle/>
     </>
   )

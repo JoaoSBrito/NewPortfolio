@@ -34,6 +34,19 @@ body {
   background-color: var(--bg-color);
   -webkit-font-smoothing: antialiased;
 }
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--navbar);       
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--purple-600);
+  border-radius: 20px;     
+}
 `
 
 
