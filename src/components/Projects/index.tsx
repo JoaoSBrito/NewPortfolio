@@ -50,7 +50,7 @@ export function Projects() {
         />
 
         <ProjectItem
-          href="https://nlw-beautysalon-eta.vercel.app/"
+          href="https://coffee-delivery-suxs.vercel.app/"
           src={CoffeeDelivery}
           title="Coffee Delivery"
         />
