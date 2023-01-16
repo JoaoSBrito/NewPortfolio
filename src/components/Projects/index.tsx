@@ -6,6 +6,7 @@ import Creation from "../../assets/creation.png";
 import NlwReturn from "../../assets/nlw-return.png";
 import NlwBeauty from "../../assets/nlw-beautysalon.png";
 import CoffeeDelivery from "../../assets/CoffeeDelivery.png";
+import DtMoney from "../../assets/dt-money.png";
 // import pomodoTimer from 'src/assets/Pomodoro-Timer.png'
 
 import { ProjectList } from "./Project.styles";
@@ -53,6 +54,14 @@ export function Projects() {
           href="https://coffee-delivery-suxs.vercel.app/"
           src={CoffeeDelivery}
           title="Coffee Delivery"
+        />
+      </ProjectList>
+
+      <ProjectList>
+        <ProjectItem
+          href="https://github.com/JoaoSBrito/dt-money"
+          src={DtMoney}
+          title="Dt Money"
         />
       </ProjectList>
     </Container>
