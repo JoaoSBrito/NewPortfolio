@@ -7,7 +7,7 @@ import NlwReturn from "../../assets/nlw-return.png";
 import NlwBeauty from "../../assets/nlw-beautysalon.png";
 import CoffeeDelivery from "../../assets/CoffeeDelivery.png";
 import DtMoney from "../../assets/dt-money.png";
-// import pomodoTimer from 'src/assets/Pomodoro-Timer.png'
+import Gitblog from "../../assets/Githubblog.png";
 
 import { ProjectList } from "./Project.styles";
 import { ProjectItem } from "./ProjectItem";
@@ -62,6 +62,12 @@ export function Projects() {
           href="https://github.com/JoaoSBrito/dt-money"
           src={DtMoney}
           title="Dt Money"
+        />
+
+        <ProjectItem
+          href="https://github.com/JoaoSBrito/GithubBlog"
+          src={Gitblog}
+          title="GithubBlog"
         />
       </ProjectList>
     </Container>
